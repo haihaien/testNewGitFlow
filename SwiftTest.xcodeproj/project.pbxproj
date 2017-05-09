@@ -22,6 +22,7 @@
 		A668515E1EA75D0600851225 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A668515C1EA75D0600851225 /* CollectionViewCell.swift */; };
 		A668515F1EA75D0600851225 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A668515D1EA75D0600851225 /* CollectionViewCell.xib */; };
 		A66A0C1B1EC16F30002F2427 /* testOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66A0C1A1EC16F30002F2427 /* testOne.swift */; };
+		A66A0C1D1EC170F1002F2427 /* testTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66A0C1C1EC170F1002F2427 /* testTwo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		A668515C1EA75D0600851225 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		A668515D1EA75D0600851225 /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 		A66A0C1A1EC16F30002F2427 /* testOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testOne.swift; sourceTree = "<group>"; };
+		A66A0C1C1EC170F1002F2427 /* testTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testTwo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				A66A0C1A1EC16F30002F2427 /* testOne.swift */,
+				A66A0C1C1EC170F1002F2427 /* testTwo.swift */,
 			);
 			path = test0.1;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 			files = (
 				A66851541EA701D300851225 /* TableViewCell.swift in Sources */,
 				A66851571EA72D6100851225 /* BaseViewController.swift in Sources */,
+				A66A0C1D1EC170F1002F2427 /* testTwo.swift in Sources */,
 				A66A0C1B1EC16F30002F2427 /* testOne.swift in Sources */,
 				A66851271EA6F53D00851225 /* ViewController.swift in Sources */,
 				A668515E1EA75D0600851225 /* CollectionViewCell.swift in Sources */,

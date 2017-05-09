@@ -21,6 +21,7 @@
 		A668515B1EA75C0A00851225 /* DynamicLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A668515A1EA75C0A00851225 /* DynamicLayout.swift */; };
 		A668515E1EA75D0600851225 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A668515C1EA75D0600851225 /* CollectionViewCell.swift */; };
 		A668515F1EA75D0600851225 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A668515D1EA75D0600851225 /* CollectionViewCell.xib */; };
+		A66A0C1B1EC16F30002F2427 /* testOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66A0C1A1EC16F30002F2427 /* testOne.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		A668515A1EA75C0A00851225 /* DynamicLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicLayout.swift; sourceTree = "<group>"; };
 		A668515C1EA75D0600851225 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		A668515D1EA75D0600851225 /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		A66A0C1A1EC16F30002F2427 /* testOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testOne.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 		A66851231EA6F53D00851225 /* SwiftTest */ = {
 			isa = PBXGroup;
 			children = (
+				A66A0C191EC16F1A002F2427 /* test0.1 */,
 				A66851241EA6F53D00851225 /* AppDelegate.swift */,
 				A66851261EA6F53D00851225 /* ViewController.swift */,
 				A66851281EA6F53D00851225 /* Main.storyboard */,
@@ -144,6 +147,14 @@
 				A66851461EA6F53D00851225 /* Info.plist */,
 			);
 			path = SwiftTestUITests;
+			sourceTree = "<group>";
+		};
+		A66A0C191EC16F1A002F2427 /* test0.1 */ = {
+			isa = PBXGroup;
+			children = (
+				A66A0C1A1EC16F30002F2427 /* testOne.swift */,
+			);
+			path = test0.1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,6 +295,7 @@
 			files = (
 				A66851541EA701D300851225 /* TableViewCell.swift in Sources */,
 				A66851571EA72D6100851225 /* BaseViewController.swift in Sources */,
+				A66A0C1B1EC16F30002F2427 /* testOne.swift in Sources */,
 				A66851271EA6F53D00851225 /* ViewController.swift in Sources */,
 				A668515E1EA75D0600851225 /* CollectionViewCell.swift in Sources */,
 				A66851591EA7323100851225 /* testViewController.swift in Sources */,
@@ -533,6 +545,7 @@
 				A668514B1EA6F53D00851225 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A668514C1EA6F53D00851225 /* Build configuration list for PBXNativeTarget "SwiftTestTests" */ = {
 			isa = XCConfigurationList;
@@ -541,6 +554,7 @@
 				A668514E1EA6F53D00851225 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A668514F1EA6F53D00851225 /* Build configuration list for PBXNativeTarget "SwiftTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -549,6 +563,7 @@
 				A66851511EA6F53D00851225 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
